@@ -6,8 +6,12 @@ authors = ["Rodrigo Muniz <rodrigosilvamuniz@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 jupyterlab = "^3.4.3"
+pandas = "^1.4.3"
+scipy = "^1.8.1"
+plotly = "^5.9.0"
+chart-studio = "^1.1.0"
 
 
 [build-system]
